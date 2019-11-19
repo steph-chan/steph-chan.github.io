@@ -26,7 +26,7 @@ Once you've found a home for your forked repository, **[clone it](https://help.g
 
 Jekyll is a [Ruby Gem](https://jekyllrb.com/docs/ruby-101/#gems) that can be installed on most systems.
 
-1. Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/)
+1. Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/)(Ruby installation instructions: https://linuxize.com/post/how-to-install-ruby-on-ubuntu-18-04/)
 2. Install Jekyll and [bundler](https://jekyllrb.com/docs/ruby-101/#bundler) [gems](https://jekyllrb.com/docs/ruby-101/#gems)
 ```
 gem install jekyll bundler
