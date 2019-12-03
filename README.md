@@ -22,11 +22,20 @@ If you want to manage your website in a local web development environment, you'l
 
 Once you've found a home for your forked repository, **[clone it](https://help.github.com/articles/cloning-a-repository/)**.
 
+#### Install Ruby
+Ruby installation instructions: https://linuxize.com/post/how-to-install-ruby-on-ubuntu-18-04/
+If you get the following error, run the below to update Ruby:
+rubyzip-2.0.0 requires ruby version >= 2.4, which is incompatible
+with the current version, ruby 2.3.3p222
+```
+gem install rubygems-update
+update_rubygems
+```
 #### Install Jekyll
 
 Jekyll is a [Ruby Gem](https://jekyllrb.com/docs/ruby-101/#gems) that can be installed on most systems.
 
-1. Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/)(Ruby installation instructions: https://linuxize.com/post/how-to-install-ruby-on-ubuntu-18-04/)
+1. Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/)
 2. Install Jekyll and [bundler](https://jekyllrb.com/docs/ruby-101/#bundler) [gems](https://jekyllrb.com/docs/ruby-101/#gems)
 ```
 gem install jekyll bundler
